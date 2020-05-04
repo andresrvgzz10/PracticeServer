@@ -1,13 +1,13 @@
 
 
-const API_TOKEN = "password123456"; 
+const TOKEN = "password123456"; 
 
 function fetchStudents(){
     let url = "/api/students";
     let settings = {
         method : 'GET',
         headers : {
-            Authorization : `Bearer ${API_TOKEN}`
+            Authorization : `Bearer ${TOKEN}`
         }
     }
 
